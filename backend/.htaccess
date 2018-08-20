@@ -1,0 +1,9 @@
+RewriteEngine on
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+RewriteRule ^(.*)$ admin.php?route=$1 [L,QSA]
+AddDefaultCharset UTF-8
+
+DirectoryIndex admin.php
