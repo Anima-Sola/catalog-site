@@ -1,2 +1,2 @@
 # catalog-site
-This is the test task from WebCanape studio.
+This is a test task for WebCanape studio.
